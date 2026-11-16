@@ -1,0 +1,7 @@
+# Chance per eligible check, once every 60 seconds. Keep low for rare sightings.
+encounter-chance: 0.012
+check-interval-seconds: 60
+minimum-player-distance: 24
+maximum-player-distance: 48
+stalking-duration-seconds: 45
+structure-radius: 3

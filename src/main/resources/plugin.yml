@@ -1,0 +1,15 @@
+name: HerobrineAwakening
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: Rare, atmospheric Herobrine encounters for Paper servers.
+author: EnderDevelopment
+commands:
+  herobrine:
+    description: Controls the Herobrine encounter system.
+    usage: /herobrine <status|summon>
+    permission: herobrine.admin
+permissions:
+  herobrine.admin:
+    description: Allows manual Herobrine control.
+    default: op
